@@ -1,9 +1,8 @@
-
-import { FaSmile, FaShippingFast, FaCalendarAlt } from 'react-icons/fa';
-import logo1 from '../assets/logo1.jpg';
-import logo2 from '../assets/logo2.jpg';
-import logo3 from '../assets/logo3.jpg';
-import logo4 from '../assets/logo4.jpg';
+import { FaSmile, FaShippingFast, FaCalendarAlt } from "react-icons/fa";
+import logo1 from "../assets/logo1.jpg";
+import logo2 from "../assets/logo2.jpg";
+import logo3 from "../assets/logo3.jpg";
+import logo4 from "../assets/logo4.jpg";
 
 const StatsAndClients = () => {
   return (
@@ -32,17 +31,39 @@ const StatsAndClients = () => {
 
       {/* Sección de logos de empresas */}
       <div className="bg-white py-10">
-        <h2 className="text-3xl font-bold mb-10">Clientes que confían en nosotros</h2>
-        <div className="flex justify-center space-x-16">
+        <h2 className="text-3xl font-bold mb-10">
+          Clientes que confían en nosotros
+        </h2>
+        <div className="flex flex-wrap justify-center space-x-16">
           {/* Grupo 1: Logos 1 y 2 */}
-          <div className="flex space-x-8">
-            <img src={logo1} alt="Logo 1" className="w-40 animate-bubble" style={{ animationDelay: '0s' }} />
-            <img src={logo2} alt="Logo 2" className="w-40 animate-bubble" style={{ animationDelay: '0s' }} />
+          <div className="flex flex-wrap justify-center space-x-8">
+            <img
+              src={logo1}
+              alt="Logo 1"
+              className="w-40 animate-bubble"
+              style={{ animationDelay: "0s" }}
+            />
+            <img
+              src={logo2}
+              alt="Logo 2"
+              className="w-40 animate-bubble"
+              style={{ animationDelay: "0s" }}
+            />
           </div>
           {/* Grupo 2: Logos 3 y 4 */}
-          <div className="flex space-x-8">
-            <img src={logo3} alt="Logo 3" className="w-40 animate-bubble" style={{ animationDelay: '3s' }} />
-            <img src={logo4} alt="Logo 4" className="w-40 animate-bubble" style={{ animationDelay: '3s' }} />
+          <div className="flex flex-wrap justify-center space-x-8 mt-8 sm:mt-0">
+            <img
+              src={logo3}
+              alt="Logo 3"
+              className="w-40 animate-bubble"
+              style={{ animationDelay: "3s" }}
+            />
+            <img
+              src={logo4}
+              alt="Logo 4"
+              className="w-40 animate-bubble"
+              style={{ animationDelay: "3s" }}
+            />
           </div>
         </div>
       </div>
